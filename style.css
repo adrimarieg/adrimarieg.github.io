@@ -1,4 +1,8 @@
 
 h1 {
-align-content: center;
+justify-item: center;
+}
+
+@media only screen and (max-width: 480px) {
+  
 }
