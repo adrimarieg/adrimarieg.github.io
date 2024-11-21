@@ -23,7 +23,13 @@ a {
 }
 
 a:hover {
-     text-decoration: underline;   
+     text-decoration: underline; 
+     text-underline-offset: 6px;  
+}
+
+#active-page {
+    text-decoration: underline overline #FFF;
+    text-underline-offset: 6px;
 }
 
 /* BODY */
