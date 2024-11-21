@@ -29,14 +29,19 @@ a:hover {
 /* BODY */
 
 h1 {
-    font-size: 250px;
+    font-size: 200px;
     margin-bottom: 10px;
     margin-top: 50px;
 }
 
 h3 {
-    font-size: 150px;
+    font-size: 100px;
     margin-top: 0
+}
+
+.temp, p {
+    margin-top: 100px;
+    text-align: center;
 }
 
 /* FOOTER */
