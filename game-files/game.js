@@ -161,9 +161,9 @@ console.log("Game script loaded");
 var canvas = document.querySelector('canvas');
 
 canvas.width = window.innerWidth;
-canvas.height = window.innerHeight / 1.5 ;
-canvas.style.position = 'absolute';
-canvas.style.top = `${window.innerHeight / 4}px`;
+canvas.height = window.innerHeight;
+// canvas.style.position = 'absolute';
+canvas.style.top = `${window.innerHeight / 3}px`;
 
 var c = canvas.getContext('2d');
 
