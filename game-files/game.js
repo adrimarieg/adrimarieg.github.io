@@ -188,7 +188,7 @@ const clouds = [
 
 // Variables for doggo
 const doggo = {
-  x: 1000,
+  x: 600,
   y: canvas.height / 2,
   width: 150,
   height: 100,
