@@ -14,7 +14,7 @@ html {
     float: right;
 }
 
-.nav-bar, li {
+.nav-bar li {
     display: inline;
     margin-left: 50px;
 }
