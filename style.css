@@ -1,7 +1,8 @@
+
 * {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Roboto Condensed";
     color: rgb(216, 218, 219);
-    font-size: 24px;
+    font-size: 36px;
 }
 
 html {
@@ -11,12 +12,18 @@ html {
 /* NAV */
 
 .nav-bar {
-    float: right;
+    padding-top: 100px;
+    display: flex;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 .nav-bar li {
-    display: inline;
-    margin-left: 50px;
+    font-weight: 300;
+    margin-bottom: 30px;
 }
 
 a {
@@ -46,18 +53,21 @@ body {
 }
 
 h1 {
-    font-size: 150px;
+    font-size: 100px;
     margin-bottom: 10px;
     margin-top: 50px;
+    font-weight: 300;
+}
+
+.contact-form h2 {
+    font-size: 80px;
+    margin-bottom: 30px;
 }
 
 h2 {
-    font-size: 80px;
-}
-
-h3 {
-    font-size: 74px;
-    margin-top: 0
+    font-size: 75px;
+    margin-top: 0;
+    font-weight: 200;
 }
 
 p {
@@ -130,60 +140,47 @@ footer, p {
 }
 
 
-/* MOBILE STYLES */
+
 @media only screen and (max-width: 480px) {
     * {
-        font-size: 16px;
         margin: 0;
     }
 
-    /* Navigation Bar */
-    .nav-bar {
-        display: grid;
-        float: none;
-        text-align: center;
-        margin-top: 100px;
-    }
-
-    .nav-bar, li {
-        padding-right: 10px;
-        margin-right: 0;
-        margin-bottom: 10px; 
-        margin-top: 50px;
-        text-decoration: underline;
-    }
-
-    /* Headings */
     h1 {
-        font-size: 50px; 
+        font-size: 75px; 
         margin-top: 10px;
-        text-align: center;
     }
 
-    h3 {
-        font-size: 30px; 
-        text-align: center;
+    h2 {
+        font-size: 50px; 
+        
     }
 
     .language-icons {
-        margin-top: 100px;
-        height: auto;
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
-    /* Body Content */
-    .temp, p {
-        margin-top: 50px; 
-        margin-bottom: 50px;
+    .language-icons img {
+        flex:auto;
+        max-width: 50px;
+        text-align: center;
+        
     }
 
-    /* Hide Game Container for Mobile Devices */
-    #game-container {
-        display: none; /* Hide the game on mobile */
+    .nav-bar {
+        padding-top: 50px;
     }
 
-    /* Footer */
-    footer {
-        padding: 10px;
-        display: none;
+    .nav-bar a {
+        font-size: 30px;
     }
-}
+
+    .nav-bar li {
+        text-decoration: underline;
+        margin-bottom: 0px;
+        text-underline-offset: 5px; 
+        margin-bottom: 20px;
+    }
+

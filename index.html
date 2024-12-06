@@ -2,6 +2,9 @@
 
 <html>
   <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;1,6..72,300&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+      </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5VTXWYCD0T"></script>
     <script>
@@ -18,71 +21,42 @@
     <title>Adrianne | SWE</title>
   </head>
 
-  <body style="height: 100vh">
-    <section>
-      <nav class="nav-bar">
-        <ul>
-          <li><a href="https://github.com/adrimarieg" target=“_blank”>GitHub</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </section>
+  <section>
 
-    <section class="name-banner" style="position: relative">
+  </section>
+  <body style="height: 100vh">
+        <section class="name-banner" style="position: relative">
       <div class="name">
-        <h1>Adrianne</h1>
+        <h1>Adrianne Gonzalez</h1>
       </div>
 
       <div class="job-title">
-        <h3>Junior Software Engineer</h3>
+        <h2>Software Engineer</h2>
       </div>
 
       <div class="language-icons">
         <img src="media/js-icon.png" class="js-icon" width="75">
         <img src="media/java-icon.png" class="java-icon" width="75">
         <img src="media/html5-icon.png" class="html5-icon" width="75">
-        <img src="media/react-icon.png" class="react-icon" width="75">
+        <!-- <img src="media/react-icon.png" class="react-icon" width="75"> -->
         <!-- <img src="media/sql-icon.png" class="sql-icon" width="75"> -->
-      </div>
+      </div> 
 
-      <div id="game-container">
-        <script>
-          document.addEventListener("keydown", function (event) {
-              if (event.code === "Space") {
-                  const gameContainer = document.getElementById("game-container");
-      
-                  // Check if the iframe is already loaded
-                  if (!gameContainer.querySelector("iframe")) {
-                      const iframe = document.createElement("iframe");
-                      iframe.src = "game-files/game.html";
-                      iframe.style.border = "none";
-                      iframe.allow = "fullscreen";
-                      iframe.loading = "lazy";
-    
-                       // Make the iframe full width and adjust height
-                    iframe.style.width = "100%";  // Set width to 100% of the parent container
-                    iframe.style.height = "100%"; // Set height to 100% of the parent container
-                    //iframe.style.position = "absolute"; // Ensure it's positioned correctly
-                    iframe.style.top = "0";  // Align the top of the iframe with the parent
-                    iframe.style.left = "0"; // Align the left of the iframe with the parent
-    
-                      gameContainer.appendChild(iframe);
-                  }
-      
-                  // Make the game container visible
-                  gameContainer.style.display = "block";
-              }
-          });
-        </script>
-      </div>    
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="https://github.com/adrimarieg" target=“_blank”>GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/adriannegonzalez/" target="_blank">LinkedIn</a></li>
+          <!-- <li><a href="projects.html">Projects</a></li> -->
+          <li><a href="mailto:adriannegonzalez@aol.com">Email me</a></li>
+        </ul>
+      </nav>
       
     </section>
   
   </body>
 
   <footer>
-    <p> Take a break, use your spacebar to play a game!</p>
+    <p> </p>
   </footer>
   
 </html>
