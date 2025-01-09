@@ -166,6 +166,7 @@ footer, p {
         flex: auto;
         max-width: 43px;
         text-align: center;
+        padding-right: 10px;
     }
 
     .nav-bar {
@@ -177,8 +178,8 @@ footer, p {
     }
 
     .nav-bar li {
-        text-decoration: underline 1px;
+        text-decoration: underline 2px;
         margin-bottom: 0px;
-        text-underline-offset: 5px; 
+        text-underline-offset: 7px; 
         margin-bottom: 20px;
     }}
