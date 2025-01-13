@@ -68,12 +68,10 @@ h2 {
 .icons {
     display: inline-flex;
     align: center;
-
-
 }
 
 .icons div {
-    margin-right: 150px;
+    margin-right: 50px;
 }
 
 .icons h3 {
