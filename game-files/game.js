@@ -82,4 +82,7 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
+
+
+
 console.log("Game script loaded");
